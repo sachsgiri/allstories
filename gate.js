@@ -1,11 +1,11 @@
 /* ============================================================
-   All Stories — client-side password gate.
+   All Stories: client-side password gate.
 
    IMPORTANT: this is a light deterrent only, not real security.
    The password below lives in plain text in this file, which is
    downloaded by every visitor's browser. Anyone who opens dev
    tools or "view source" can read it. Do not use this to protect
-   anything you actually need to keep private — it only stops
+   anything you actually need to keep private. It only stops
    casual visitors from stumbling onto the site.
 
    Usage: include this script on every page (index.html and each
@@ -57,7 +57,7 @@
       if (input.value === PASSWORD) {
         unlock();
       } else {
-        errorEl.textContent = 'That’s not it — try again.';
+        errorEl.textContent = 'That’s not it. Try again.';
         box.classList.remove('shake');
         // force reflow so the animation can replay
         void box.offsetWidth;

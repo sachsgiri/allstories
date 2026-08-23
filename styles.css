@@ -1,7 +1,7 @@
 /* ============================================================
-   All Stories — shared stylesheet
+   All Stories: shared stylesheet
    One deliberate dark, editorial theme. Serif for everything that
-   is prose (Lora for Latin, Noto Serif Devanagari for Marathi —
+   is prose (Lora for Latin, Noto Serif Devanagari for Marathi,
    declared as one stack so the browser picks the right glyphs per
    character), Inter for the small bits of UI chrome. Flat, minimal,
    mobile-first.
