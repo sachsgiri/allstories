@@ -1,0 +1,32 @@
+styles.css
+  s_777cab9ccb3426::t_dca73a2beff82c 2,4
+README.md
+  s_777cab9ccb3426::t_ce04b2c2dbb516 4,10-15,23,27-29,46,55,62,64,70,78,99,111,114,119,124,128,133,140-142
+index.html
+  s_777cab9ccb3426::t_22fd677a0bd9fb 43
+  s_777cab9ccb3426::t_e877dc6dd8f782 61
+  s_777cab9ccb3426::t_a3207247bb1d93 25
+stories/antarchip.html
+  s_777cab9ccb3426::t_bfd85a174c8ea1 6
+gate.js
+  s_777cab9ccb3426::t_663f900b232feb 60
+  s_777cab9ccb3426::t_98a541d2c24504 2,8
+stories/chirantanacha-ganj.html
+  s_777cab9ccb3426::t_0da11e579e2e0b 6
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.20",
+  "base_commit_sha": "4a9aac09e6428ae4c64042a49ab1ec219033a7a3",
+  "prompts": {},
+  "sessions": {
+    "s_777cab9ccb3426": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c7a1b403-2e6b-40e7-b6c7-7751dffd9638",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "sgiri <sachinshivaji.giribuva@boomi.com>"
+    }
+  }
+}
