@@ -1,0 +1,352 @@
+/* ============================================================
+   All Stories — shared stylesheet
+   One deliberate dark, editorial theme. Serif for everything that
+   is prose (Lora for Latin, Noto Serif Devanagari for Marathi —
+   declared as one stack so the browser picks the right glyphs per
+   character), Inter for the small bits of UI chrome. Flat, minimal,
+   mobile-first.
+   ============================================================ */
+
+:root {
+  --bg: #121212;
+  --bg-raised: #1a1a1a;
+  --text: #ece6da;
+  --text-dim: #8f897d;
+  --rule: #2a2a2a;
+  --accent: #cf9a5c;
+  --accent-dim: rgba(207, 154, 92, 0.35);
+
+  --font-serif: 'Lora', 'Noto Serif Devanagari', Georgia, serif;
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-sans);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+.page {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 3.5rem 1.25rem 5rem;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+/* ---------- Site header / masthead ---------- */
+
+.site-header {
+  margin-bottom: 3rem;
+}
+
+.site-header h1 {
+  font-family: var(--font-serif);
+  font-size: clamp(1.7rem, 5vw, 2.2rem);
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  margin: 0 0 0.6rem;
+}
+
+.site-header p {
+  color: var(--text-dim);
+  font-size: 0.92rem;
+  font-style: italic;
+  margin: 0 0 1.25rem;
+}
+
+.masthead-rule {
+  border: none;
+  border-top: 1px solid var(--rule);
+  margin: 0;
+}
+
+/* ---------- Index list (marked up as a table) ---------- */
+
+.stories-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 0.5rem;
+}
+
+.stories-table tr {
+  border-bottom: 1px solid var(--rule);
+}
+
+.stories-table tr:last-child {
+  border-bottom: none;
+}
+
+.stories-table td {
+  padding: 1.6rem 0.25rem;
+  vertical-align: top;
+}
+
+.stories-table td.idea-cell {
+  width: 58%;
+}
+
+.stories-table td.link-cell {
+  width: 42%;
+  text-align: left;
+  padding-left: 1.5rem;
+  padding-top: 1.75rem;
+}
+
+.idea-text {
+  color: var(--text-dim);
+  font-size: 0.95rem;
+  line-height: 1.65;
+  margin: 0;
+}
+
+.idea-thumb {
+  display: block;
+  width: 100%;
+  max-width: 220px;
+  height: auto;
+  border-radius: 4px;
+}
+
+.story-link {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  font-size: 1.05rem;
+  line-height: 1.4;
+}
+
+.coming-soon {
+  color: var(--text-dim);
+  font-size: 0.82rem;
+  font-style: italic;
+  letter-spacing: 0.01em;
+}
+
+/* Stack idea/link vertically on narrow screens */
+@media (max-width: 560px) {
+  .stories-table, .stories-table tbody, .stories-table tr, .stories-table td {
+    display: block;
+    width: 100% !important;
+  }
+  .stories-table tr {
+    padding: 1.4rem 0;
+  }
+  .stories-table td {
+    padding: 0.2rem 0.25rem;
+  }
+  .stories-table td.link-cell {
+    text-align: left;
+    padding-left: 0.25rem;
+    padding-top: 0.75rem;
+  }
+}
+
+/* ---------- Story page ---------- */
+
+.kicker {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-bottom: 2rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+}
+
+.kicker:hover {
+  color: var(--accent);
+}
+
+.kicker svg {
+  width: 0.9em;
+  height: 0.9em;
+}
+
+.story-header {
+  margin-bottom: 2.25rem;
+}
+
+.story-title {
+  font-family: var(--font-serif);
+  font-size: clamp(1.7rem, 6vw, 2.4rem);
+  font-weight: 600;
+  line-height: 1.35;
+  margin: 0 0 0.9rem;
+}
+
+.story-byline {
+  color: var(--text-dim);
+  font-size: 0.88rem;
+  letter-spacing: 0.02em;
+  margin: 0;
+  padding-top: 0.9rem;
+  border-top: 1px solid var(--rule);
+}
+
+.story-illustration {
+  margin: 2.25rem 0;
+  border-radius: 4px;
+  overflow: hidden;
+  background: var(--bg-raised);
+}
+
+.story-illustration svg,
+.story-illustration img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.story-body {
+  font-family: var(--font-serif);
+  font-size: clamp(1.02rem, 2.6vw, 1.15rem);
+  line-height: 1.9;
+}
+
+.story-body p {
+  margin: 0 0 1.35rem;
+}
+
+.dinkus {
+  text-align: center;
+  color: var(--accent);
+  font-size: 0.9rem;
+  letter-spacing: 0.3em;
+  margin: 2.5rem 0;
+}
+
+.story-footer {
+  margin-top: 1rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--rule);
+}
+
+/* ---------- Password gate overlay ---------- */
+
+#gate-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg);
+  padding: 1.5rem;
+}
+
+.gate-box {
+  max-width: 320px;
+  width: 100%;
+  text-align: center;
+}
+
+.gate-lock {
+  width: 2rem;
+  height: 2rem;
+  margin: 0 auto 1.1rem;
+  color: var(--accent);
+}
+
+.gate-lock svg {
+  width: 100%;
+  height: 100%;
+}
+
+.gate-box h2 {
+  font-family: var(--font-serif);
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0 0 0.5rem;
+}
+
+.gate-box p {
+  color: var(--text-dim);
+  font-size: 0.88rem;
+  margin: 0 0 1.5rem;
+}
+
+.gate-box input[type="password"] {
+  width: 100%;
+  padding: 0.7rem 0.85rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  border: 1px solid var(--rule);
+  background: var(--bg-raised);
+  color: var(--text);
+  font-family: var(--font-sans);
+  margin-bottom: 0.85rem;
+}
+
+.gate-box input[type="password"]:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px var(--accent-dim);
+}
+
+.gate-box button {
+  width: 100%;
+  padding: 0.7rem 0.85rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  font-family: var(--font-sans);
+  border: 1px solid var(--accent);
+  border-radius: 4px;
+  background: transparent;
+  color: var(--accent);
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+
+.gate-box button:hover {
+  background: var(--accent);
+  color: #121212;
+}
+
+.gate-error {
+  color: #d97a6c;
+  font-size: 0.82rem;
+  min-height: 1.2em;
+  margin-top: 0.7rem;
+}
+
+.gate-box.shake {
+  animation: gate-shake 0.35s;
+}
+
+@keyframes gate-shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-6px); }
+  75% { transform: translateX(6px); }
+}
+
+#site-content {
+  display: none;
+}
+
+body.gate-unlocked #site-content {
+  display: block;
+}
