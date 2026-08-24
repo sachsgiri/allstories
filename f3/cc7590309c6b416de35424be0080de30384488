@@ -1,0 +1,31 @@
+sources/talavatla-un.md
+  s_a130a60ae2824e::t_e33deddeb58530 1-39
+sources/sur-yeti.md
+  s_a130a60ae2824e::t_e33deddeb58530 1-47
+sources/chirantanacha-ganj.md
+  s_a130a60ae2824e::t_e33deddeb58530 1-127
+sources/antarchip.md
+  s_a130a60ae2824e::t_e33deddeb58530 1-141
+sources/gurujincha-hologram.md
+  s_a130a60ae2824e::t_e33deddeb58530 1-135
+sources/mandesh-park.md
+  s_a130a60ae2824e::t_e33deddeb58530 1-355
+sources/dikkal-dhukyachya-samayi.md
+  s_a130a60ae2824e::t_e33deddeb58530 1-217
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.20",
+  "base_commit_sha": "f3cc7590309c6b416de35424be0080de30384488",
+  "prompts": {},
+  "sessions": {
+    "s_a130a60ae2824e": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "d678ba30-6fdf-402b-826a-ff808f550371",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "sgiri <sachinshivaji.giribuva@boomi.com>"
+    }
+  }
+}
