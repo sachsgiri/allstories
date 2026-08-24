@@ -242,7 +242,7 @@ a:hover {
 
 .story-body p.verse {
   font-style: italic;
-  color: var(--accent);
+  color: var(--text);
 }
 
 .story-body .scenebreak {
