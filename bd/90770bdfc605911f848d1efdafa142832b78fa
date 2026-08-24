@@ -1,0 +1,31 @@
+stories/dikkal-dhukyachya-samayi.html
+  s_a130a60ae2824e::t_785664139155fd 66
+  s_a130a60ae2824e::t_3514b20410e2d5 160
+  s_a130a60ae2824e::t_db5d64fb3fc7f5 163
+  s_a130a60ae2824e::t_4396375bc693dc 80
+  s_a130a60ae2824e::t_fa7385a6a43d1c 152
+  s_a130a60ae2824e::t_ea34b9c29ec8f8 86
+  s_a130a60ae2824e::t_df87d21518bc07 75
+  s_a130a60ae2824e::t_ba7bab79fac882 161
+  s_a130a60ae2824e::t_1f3d7fc975e32c 81
+  s_a130a60ae2824e::t_be009631277fe9 83
+  s_a130a60ae2824e::t_91f94618c9370e 153
+sources/dikkal-dhukyachya-samayi.md
+  s_a130a60ae2824e::t_dd3502b22620ac 9,27,37,39,43,49,181,183,197,199,203
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.20",
+  "base_commit_sha": "bd90770bdfc605911f848d1efdafa142832b78fa",
+  "prompts": {},
+  "sessions": {
+    "s_a130a60ae2824e": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "d678ba30-6fdf-402b-826a-ff808f550371",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "sgiri <sachinshivaji.giribuva@boomi.com>"
+    }
+  }
+}
