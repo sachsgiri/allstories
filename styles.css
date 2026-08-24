@@ -238,6 +238,24 @@ a:hover {
   line-height: 1.7;
 }
 
+.story-body .scenebreak {
+  text-align: center;
+  color: var(--text-dim);
+  letter-spacing: 0.3em;
+  margin: 2.5rem 0 0.5rem;
+}
+
+.story-body p.section-label {
+  font-family: var(--font-sans);
+  text-align: center;
+  color: var(--text-dim);
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin: 0 0 2rem;
+}
+
 .dinkus {
   text-align: center;
   color: var(--accent);
