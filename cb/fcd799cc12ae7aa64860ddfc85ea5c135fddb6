@@ -1,0 +1,19 @@
+index.html
+  s_777cab9ccb3426::t_5d567351db0d72 114-194
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.20",
+  "base_commit_sha": "cbfcd799cc12ae7aa64860ddfc85ea5c135fddb6",
+  "prompts": {},
+  "sessions": {
+    "s_777cab9ccb3426": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c7a1b403-2e6b-40e7-b6c7-7751dffd9638",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "sgiri <sachinshivaji.giribuva@boomi.com>"
+    }
+  }
+}
