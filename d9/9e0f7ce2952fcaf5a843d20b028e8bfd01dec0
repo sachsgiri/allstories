@@ -1,0 +1,19 @@
+stories/dikkal-dhukyachya-samayi.html
+  s_777cab9ccb3426::t_b7cf9bc51767ea 133
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.20",
+  "base_commit_sha": "d99e0f7ce2952fcaf5a843d20b028e8bfd01dec0",
+  "prompts": {},
+  "sessions": {
+    "s_777cab9ccb3426": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c7a1b403-2e6b-40e7-b6c7-7751dffd9638",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "sgiri <sachinshivaji.giribuva@boomi.com>"
+    }
+  }
+}
