@@ -1,0 +1,21 @@
+index.html
+  s_a130a60ae2824e::t_6cdab1ccf1edf6 26
+  s_a130a60ae2824e::t_184fc02439257f 111
+  s_a130a60ae2824e::t_aaedd26f7f450d 101
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.20",
+  "base_commit_sha": "9070505c252e97285580c7558c0da683483566dc",
+  "prompts": {},
+  "sessions": {
+    "s_a130a60ae2824e": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "d678ba30-6fdf-402b-826a-ff808f550371",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "sgiri <sachinshivaji.giribuva@boomi.com>"
+    }
+  }
+}
