@@ -133,6 +133,9 @@ a:hover {
   font-size: 0.82rem;
   font-style: italic;
   margin: 0.6rem 0 0;
+}
+
+.idea-cell .idea-thumb + .idea-note {
   max-width: 220px;
 }
 
@@ -240,10 +243,6 @@ a:hover {
 .story-body p.verse {
   font-style: italic;
   color: var(--accent);
-  text-align: center;
-  margin: 1.8rem 0;
-  font-size: 1.05em;
-  line-height: 1.7;
 }
 
 .story-body .scenebreak {
