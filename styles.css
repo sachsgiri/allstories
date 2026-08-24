@@ -229,6 +229,15 @@ a:hover {
   margin: 0 0 1.35rem;
 }
 
+.story-body p.verse {
+  font-style: italic;
+  color: var(--accent);
+  text-align: center;
+  margin: 1.8rem 0;
+  font-size: 1.05em;
+  line-height: 1.7;
+}
+
 .dinkus {
   text-align: center;
   color: var(--accent);
