@@ -1,0 +1,23 @@
+sources/antarchip.md
+  s_a130a60ae2824e::t_3cfdc3a13af82d 1
+index.html
+  s_a130a60ae2824e::t_8c2dbbbcf615b3 29
+stories/antarchip.html
+  s_a130a60ae2824e::t_4b103935bf040f 6,21
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.20",
+  "base_commit_sha": "5d1992936bfc78d6e87f46665edd712579970837",
+  "prompts": {},
+  "sessions": {
+    "s_a130a60ae2824e": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "d678ba30-6fdf-402b-826a-ff808f550371",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "sgiri <sachinshivaji.giribuva@boomi.com>"
+    }
+  }
+}
