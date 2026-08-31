@@ -1,0 +1,26 @@
+index.html
+  s_a130a60ae2824e::t_51e0d4c4f4cbbe 63-69
+  s_a130a60ae2824e::t_90820f9940a953 61-62
+sources/bisalsidarayachi-nahani.md
+  s_a130a60ae2824e::t_9126d55fee7c6a 1-224,226-264,266-722,724-726,728,730-795
+  s_a130a60ae2824e::t_dec9819947dd13 225,265,723,727,729
+stories/bisalsidarayachi-nahani.html
+  s_a130a60ae2824e::t_8f1df823ef6402 1-158,160-178,180-407,409,412-460
+  s_a130a60ae2824e::t_999e4a2904476b 159,179,408,410-411
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.20",
+  "base_commit_sha": "bd2f1496c4f25771e4e0ac8debc0251266c8b398",
+  "prompts": {},
+  "sessions": {
+    "s_a130a60ae2824e": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "d678ba30-6fdf-402b-826a-ff808f550371",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "sgiri <sachinshivaji.giribuva@boomi.com>"
+    }
+  }
+}
