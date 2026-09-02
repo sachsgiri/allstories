@@ -144,6 +144,16 @@ a:hover {
   font-weight: 600;
   font-size: 1.05rem;
   line-height: 1.4;
+  display: block;
+}
+
+.story-link + .story-link {
+  margin-top: 0.5rem;
+}
+
+.story-link-secondary {
+  font-size: 0.9rem;
+  font-weight: 500;
 }
 
 .coming-soon {
