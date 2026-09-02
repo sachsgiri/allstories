@@ -1,0 +1,27 @@
+sources/satah-par-dhoop.md
+  s_a130a60ae2824e::t_3c1fc21f41d8b2 27
+  s_a130a60ae2824e::t_6492c8ba83ba08 1-24,26,28-41
+  s_a130a60ae2824e::t_b1d01f52f8296e 25
+index.html
+  s_a130a60ae2824e::t_2f75e4de96a01e 114
+stories/satah-par-dhoop.html
+  s_a130a60ae2824e::t_4a44844fe2e865 1-90
+styles.css
+  s_a130a60ae2824e::t_b9b3b5c2735348 147-156
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.20",
+  "base_commit_sha": "dab06cfbdadc39cefc78cafb8faa307b1f4cae73",
+  "prompts": {},
+  "sessions": {
+    "s_a130a60ae2824e": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "d678ba30-6fdf-402b-826a-ff808f550371",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "sgiri <sachinshivaji.giribuva@boomi.com>"
+    }
+  }
+}
