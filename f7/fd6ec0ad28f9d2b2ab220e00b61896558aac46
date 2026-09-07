@@ -1,0 +1,20 @@
+index.html
+  s_abcd2b0adfa8b4::t_e9502eee3b717f 121-127
+  s_abcd2b0adfa8b4::t_61803c322a95e0 119-120
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.20",
+  "base_commit_sha": "f7fd6ec0ad28f9d2b2ab220e00b61896558aac46",
+  "prompts": {},
+  "sessions": {
+    "s_abcd2b0adfa8b4": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "1e096edf-fecc-49ab-a65e-5f8bcf38b855",
+        "model": "claude-fable-5"
+      },
+      "human_author": "sgiri <sachinshivaji.giribuva@boomi.com>"
+    }
+  }
+}
