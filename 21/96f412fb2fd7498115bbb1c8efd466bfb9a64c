@@ -1,0 +1,21 @@
+stories/dikkal-dhukyachya-samayi.html
+  s_abcd2b0adfa8b4::t_417e6e05e4da81 111,147,149-150,152
+sources/dikkal-dhukyachya-samayi.md
+  s_abcd2b0adfa8b4::t_bd3d18e8ddaff5 99,171,175,177,181
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.20",
+  "base_commit_sha": "2196f412fb2fd7498115bbb1c8efd466bfb9a64c",
+  "prompts": {},
+  "sessions": {
+    "s_abcd2b0adfa8b4": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "1e096edf-fecc-49ab-a65e-5f8bcf38b855",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "sgiri <sachinshivaji.giribuva@boomi.com>"
+    }
+  }
+}
