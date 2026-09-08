@@ -1,0 +1,22 @@
+sources/dikkal-dhukyachya-samayi.md
+  s_abcd2b0adfa8b4::t_dfa70a3c2bb562 15,49,57,75,89,99,101,107,137,159,161,165,173-179,181,183,217
+  s_abcd2b0adfa8b4::t_a4e4c759780e8f 37,67,79,81,155,171-172,211
+stories/dikkal-dhukyachya-samayi.html
+  s_abcd2b0adfa8b4::t_92eda9906b1058 69,80,86,90,95,99,101-102,106,111-112,115,130,139,141-142,144,147-153,167,170
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.20",
+  "base_commit_sha": "b53183975996b8c9e5f0464a5a5900047ada197a",
+  "prompts": {},
+  "sessions": {
+    "s_abcd2b0adfa8b4": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "1e096edf-fecc-49ab-a65e-5f8bcf38b855",
+        "model": "claude-fable-5"
+      },
+      "human_author": "sgiri <sachinshivaji.giribuva@boomi.com>"
+    }
+  }
+}
