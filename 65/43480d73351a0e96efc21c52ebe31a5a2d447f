@@ -1,0 +1,19 @@
+stories/mandesh-park.html
+  s_abcd2b0adfa8b4::t_08a766a2749db8 66,92,94,104,107,109,112,129,167,180-182,193-194,196,201-215,217-218,220
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.20",
+  "base_commit_sha": "6543480d73351a0e96efc21c52ebe31a5a2d447f",
+  "prompts": {},
+  "sessions": {
+    "s_abcd2b0adfa8b4": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "1e096edf-fecc-49ab-a65e-5f8bcf38b855",
+        "model": "claude-fable-5"
+      },
+      "human_author": "sgiri <sachinshivaji.giribuva@boomi.com>"
+    }
+  }
+}
