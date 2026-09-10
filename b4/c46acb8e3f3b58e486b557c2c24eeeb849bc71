@@ -1,0 +1,19 @@
+sources/mandesh-park.md
+  s_abcd2b0adfa8b4::t_d078a4abb59695 55,59,79,85,89,95,129,205,229,231,233,255,257,261,269,271,273,275,277,279,281,283,285,287,289,291,293,295,297,301,303,307
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.20",
+  "base_commit_sha": "b4c46acb8e3f3b58e486b557c2c24eeeb849bc71",
+  "prompts": {},
+  "sessions": {
+    "s_abcd2b0adfa8b4": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "1e096edf-fecc-49ab-a65e-5f8bcf38b855",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "sgiri <sachinshivaji.giribuva@boomi.com>"
+    }
+  }
+}
