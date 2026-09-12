@@ -1,0 +1,19 @@
+stories/bisalsidarayachi-nahani.html
+  s_abcd2b0adfa8b4::t_3904e5e2483d66 72,89,98,101,149,265,267,269,290,293-294,297,395,410-411,414,418,421,427,430-431
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.20",
+  "base_commit_sha": "6cbd076c8bc1240a4f702ba58b5e45736173ee53",
+  "prompts": {},
+  "sessions": {
+    "s_abcd2b0adfa8b4": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "1e096edf-fecc-49ab-a65e-5f8bcf38b855",
+        "model": "claude-fable-5"
+      },
+      "human_author": "sgiri <sachinshivaji.giribuva@boomi.com>"
+    }
+  }
+}
