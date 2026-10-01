@@ -1,0 +1,21 @@
+sources/bisalsidarayachi-nahani.md
+  s_abcd2b0adfa8b4::t_70cdaa4c25a795 575,577,579,581,583,585,587,589,591,593
+stories/bisalsidarayachi-nahani.html
+  s_abcd2b0adfa8b4::t_70cdaa4c25a795 334-343
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.20",
+  "base_commit_sha": "944619d1461b4c9f5563052a4da248e49966d90d",
+  "prompts": {},
+  "sessions": {
+    "s_abcd2b0adfa8b4": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "1e096edf-fecc-49ab-a65e-5f8bcf38b855",
+        "model": "claude-sonnet-5-5"
+      },
+      "human_author": "sgiri <sachinshivaji.giribuva@boomi.com>"
+    }
+  }
+}
