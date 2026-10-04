@@ -1,0 +1,25 @@
+sources/rekha-ani-antar.md
+  s_abcd2b0adfa8b4::t_32060c3ec992ff 9,11,21,23,25,27,31,35,41,43,45,47,53,57,59,61,63
+stories/dikkal-dhukyachya-samayi.html
+  s_abcd2b0adfa8b4::t_32060c3ec992ff 64,68,80,101,106,134
+stories/rekha-ani-antar.html
+  s_abcd2b0adfa8b4::t_32060c3ec992ff 69-70,75-78,80,82,85-88,91,93-96
+sources/dikkal-dhukyachya-samayi.md
+  s_abcd2b0adfa8b4::t_fb60f7d1b39267 5,13,37,79,89,145
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.20",
+  "base_commit_sha": "5e3c83c1ff33a51459f737721d944eb5c58438d5",
+  "prompts": {},
+  "sessions": {
+    "s_abcd2b0adfa8b4": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "1e096edf-fecc-49ab-a65e-5f8bcf38b855",
+        "model": "claude-sonnet-5-5"
+      },
+      "human_author": "sgiri <sachinshivaji.giribuva@boomi.com>"
+    }
+  }
+}
