@@ -1,0 +1,21 @@
+sources/rekha-ani-antar.md
+  s_123ed5f4604401::t_66df57de718a13 89
+stories/rekha-ani-antar.html
+  s_123ed5f4604401::t_5e429f2493239b 109
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.20",
+  "base_commit_sha": "b6996d7662607ed4d9f861005e341092bb4bba4e",
+  "prompts": {},
+  "sessions": {
+    "s_123ed5f4604401": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "60f680bc-938e-4b2c-8365-938fe308e6e6",
+        "model": "claude-sonnet-5-5"
+      },
+      "human_author": "sgiri <sachinshivaji.giribuva@boomi.com>"
+    }
+  }
+}
